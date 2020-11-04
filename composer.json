@@ -1,0 +1,20 @@
+{
+    "name": "rchaname/consultadni",
+    "description": "Paquete para consulta dni",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rchaname",
+            "email": "rdchaname@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rchaname\\Consultadni\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
